@@ -21,8 +21,8 @@ public class AdminController {
         return adminService.findList();
     }
 
-    @RequestMapping("tiaozhuan")
-    public String tiaozhuan(){
+    @RequestMapping("zhuanadmin")
+    public String zhuanadmin(){
         return "admin";
     }
 
